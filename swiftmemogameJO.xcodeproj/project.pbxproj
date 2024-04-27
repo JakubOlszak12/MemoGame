@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FCDCBBF2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBBE2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift */; };
+		3FCDCBC12BDD4C7600BA95C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBC02BDD4C7600BA95C6 /* ContentView.swift */; };
+		3FCDCBC32BDD4C7700BA95C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCBC22BDD4C7700BA95C6 /* Assets.xcassets */; };
+		3FCDCBC62BDD4C7700BA95C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCBC52BDD4C7700BA95C6 /* Preview Assets.xcassets */; };
+		3FCDCBD02BDD4C7700BA95C6 /* swiftmemogameJOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */; };
+		3FCDCBDA2BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */; };
+		3FCDCBDC2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCDCBCC2BDD4C7700BA95C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCDCBB32BDD4C7600BA95C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCDCBBA2BDD4C7600BA95C6;
+			remoteInfo = swiftmemogameJO;
+		};
+		3FCDCBD62BDD4C7700BA95C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCDCBB32BDD4C7600BA95C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCDCBBA2BDD4C7600BA95C6;
+			remoteInfo = swiftmemogameJO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FCDCBBB2BDD4C7600BA95C6 /* swiftmemogameJO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftmemogameJO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDCBBE2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOApp.swift; sourceTree = "<group>"; };
+		3FCDCBC02BDD4C7600BA95C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FCDCBC22BDD4C7700BA95C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCDCBC52BDD4C7700BA95C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FCDCBCB2BDD4C7700BA95C6 /* swiftmemogameJOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmemogameJOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOTests.swift; sourceTree = "<group>"; };
+		3FCDCBD52BDD4C7700BA95C6 /* swiftmemogameJOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmemogameJOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOUITests.swift; sourceTree = "<group>"; };
+		3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCDCBB82BDD4C7600BA95C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDCBC82BDD4C7700BA95C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDCBD22BDD4C7700BA95C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCDCBB22BDD4C7600BA95C6 = {
+			isa = PBXGroup;
+			children = (
+				3FCDCBBD2BDD4C7600BA95C6 /* swiftmemogameJO */,
+				3FCDCBCE2BDD4C7700BA95C6 /* swiftmemogameJOTests */,
+				3FCDCBD82BDD4C7700BA95C6 /* swiftmemogameJOUITests */,
+				3FCDCBBC2BDD4C7600BA95C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCDCBBC2BDD4C7600BA95C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCBBB2BDD4C7600BA95C6 /* swiftmemogameJO.app */,
+				3FCDCBCB2BDD4C7700BA95C6 /* swiftmemogameJOTests.xctest */,
+				3FCDCBD52BDD4C7700BA95C6 /* swiftmemogameJOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCDCBBD2BDD4C7600BA95C6 /* swiftmemogameJO */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCBBE2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift */,
+				3FCDCBC02BDD4C7600BA95C6 /* ContentView.swift */,
+				3FCDCBC22BDD4C7700BA95C6 /* Assets.xcassets */,
+				3FCDCBC42BDD4C7700BA95C6 /* Preview Content */,
+			);
+			path = swiftmemogameJO;
+			sourceTree = "<group>";
+		};
+		3FCDCBC42BDD4C7700BA95C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCBC52BDD4C7700BA95C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FCDCBCE2BDD4C7700BA95C6 /* swiftmemogameJOTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */,
+			);
+			path = swiftmemogameJOTests;
+			sourceTree = "<group>";
+		};
+		3FCDCBD82BDD4C7700BA95C6 /* swiftmemogameJOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */,
+				3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */,
+			);
+			path = swiftmemogameJOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCDCBBA2BDD4C7600BA95C6 /* swiftmemogameJO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDCBDF2BDD4C7700BA95C6 /* Build configuration list for PBXNativeTarget "swiftmemogameJO" */;
+			buildPhases = (
+				3FCDCBB72BDD4C7600BA95C6 /* Sources */,
+				3FCDCBB82BDD4C7600BA95C6 /* Frameworks */,
+				3FCDCBB92BDD4C7600BA95C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftmemogameJO;
+			productName = swiftmemogameJO;
+			productReference = 3FCDCBBB2BDD4C7600BA95C6 /* swiftmemogameJO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCDCBCA2BDD4C7700BA95C6 /* swiftmemogameJOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDCBE22BDD4C7700BA95C6 /* Build configuration list for PBXNativeTarget "swiftmemogameJOTests" */;
+			buildPhases = (
+				3FCDCBC72BDD4C7700BA95C6 /* Sources */,
+				3FCDCBC82BDD4C7700BA95C6 /* Frameworks */,
+				3FCDCBC92BDD4C7700BA95C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCDCBCD2BDD4C7700BA95C6 /* PBXTargetDependency */,
+			);
+			name = swiftmemogameJOTests;
+			productName = swiftmemogameJOTests;
+			productReference = 3FCDCBCB2BDD4C7700BA95C6 /* swiftmemogameJOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FCDCBD42BDD4C7700BA95C6 /* swiftmemogameJOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDCBE52BDD4C7700BA95C6 /* Build configuration list for PBXNativeTarget "swiftmemogameJOUITests" */;
+			buildPhases = (
+				3FCDCBD12BDD4C7700BA95C6 /* Sources */,
+				3FCDCBD22BDD4C7700BA95C6 /* Frameworks */,
+				3FCDCBD32BDD4C7700BA95C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCDCBD72BDD4C7700BA95C6 /* PBXTargetDependency */,
+			);
+			name = swiftmemogameJOUITests;
+			productName = swiftmemogameJOUITests;
+			productReference = 3FCDCBD52BDD4C7700BA95C6 /* swiftmemogameJOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCDCBB32BDD4C7600BA95C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3FCDCBBA2BDD4C7600BA95C6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3FCDCBCA2BDD4C7700BA95C6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3FCDCBBA2BDD4C7600BA95C6;
+					};
+					3FCDCBD42BDD4C7700BA95C6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3FCDCBBA2BDD4C7600BA95C6;
+					};
+				};
+			};
+			buildConfigurationList = 3FCDCBB62BDD4C7600BA95C6 /* Build configuration list for PBXProject "swiftmemogameJO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCDCBB22BDD4C7600BA95C6;
+			productRefGroup = 3FCDCBBC2BDD4C7600BA95C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCDCBBA2BDD4C7600BA95C6 /* swiftmemogameJO */,
+				3FCDCBCA2BDD4C7700BA95C6 /* swiftmemogameJOTests */,
+				3FCDCBD42BDD4C7700BA95C6 /* swiftmemogameJOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCDCBB92BDD4C7600BA95C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDCBC62BDD4C7700BA95C6 /* Preview Assets.xcassets in Resources */,
+				3FCDCBC32BDD4C7700BA95C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDCBC92BDD4C7700BA95C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDCBD32BDD4C7700BA95C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCDCBB72BDD4C7600BA95C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDCBC12BDD4C7600BA95C6 /* ContentView.swift in Sources */,
+				3FCDCBBF2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDCBC72BDD4C7700BA95C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDCBD02BDD4C7700BA95C6 /* swiftmemogameJOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDCBD12BDD4C7700BA95C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDCBDA2BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift in Sources */,
+				3FCDCBDC2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCDCBCD2BDD4C7700BA95C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCDCBBA2BDD4C7600BA95C6 /* swiftmemogameJO */;
+			targetProxy = 3FCDCBCC2BDD4C7700BA95C6 /* PBXContainerItemProxy */;
+		};
+		3FCDCBD72BDD4C7700BA95C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCDCBBA2BDD4C7600BA95C6 /* swiftmemogameJO */;
+			targetProxy = 3FCDCBD62BDD4C7700BA95C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FCDCBDD2BDD4C7700BA95C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCDCBDE2BDD4C7700BA95C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCDCBE02BDD4C7700BA95C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftmemogameJO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.swiftmemogameJO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCDCBE12BDD4C7700BA95C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftmemogameJO/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.swiftmemogameJO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FCDCBE32BDD4C7700BA95C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.swiftmemogameJOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftmemogameJO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftmemogameJO";
+			};
+			name = Debug;
+		};
+		3FCDCBE42BDD4C7700BA95C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.swiftmemogameJOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftmemogameJO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftmemogameJO";
+			};
+			name = Release;
+		};
+		3FCDCBE62BDD4C7700BA95C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.swiftmemogameJOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swiftmemogameJO;
+			};
+			name = Debug;
+		};
+		3FCDCBE72BDD4C7700BA95C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.swiftmemogameJOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swiftmemogameJO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCDCBB62BDD4C7600BA95C6 /* Build configuration list for PBXProject "swiftmemogameJO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDCBDD2BDD4C7700BA95C6 /* Debug */,
+				3FCDCBDE2BDD4C7700BA95C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCDCBDF2BDD4C7700BA95C6 /* Build configuration list for PBXNativeTarget "swiftmemogameJO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDCBE02BDD4C7700BA95C6 /* Debug */,
+				3FCDCBE12BDD4C7700BA95C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCDCBE22BDD4C7700BA95C6 /* Build configuration list for PBXNativeTarget "swiftmemogameJOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDCBE32BDD4C7700BA95C6 /* Debug */,
+				3FCDCBE42BDD4C7700BA95C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCDCBE52BDD4C7700BA95C6 /* Build configuration list for PBXNativeTarget "swiftmemogameJOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDCBE62BDD4C7700BA95C6 /* Debug */,
+				3FCDCBE72BDD4C7700BA95C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCDCBB32BDD4C7600BA95C6 /* Project object */;
+}
