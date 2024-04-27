@@ -25,23 +25,22 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding()
             HStack {
-                ThemeButton(theme: .emojis, selectedTheme: $selectedTheme)
-                ThemeButton(theme: .animals, selectedTheme: $selectedTheme)
-                ThemeButton(theme: .flags, selectedTheme: $selectedTheme)
+                ThemeButton(theme: .emojis, selectedTheme: $selectedTheme).foregroundColor(selectedTheme.color)
+                ThemeButton(theme: .animals, selectedTheme: $selectedTheme).foregroundColor(selectedTheme.color)
+                ThemeButton(theme: .flags, selectedTheme: $selectedTheme).foregroundColor(selectedTheme.color)
             }
             .padding()
             
-            HStack {
-                adjustCardNumber(by: 2, symbol: "plus.square.fill").padding()
-                Spacer()
-                adjustCardNumber(by: -2, symbol: "minus.square.fill").padding()
-            }
-            .padding()
-            
-            Spacer()
-            
+           
             cardDisplay
                 .foregroundColor(Color.blue)
+            HStack {
+                adjustCardNumber(by: 2, symbol: "plus.square.fill").padding().foregroundColor(selectedTheme.color)
+                Spacer()
+                adjustCardNumber(by: -2, symbol: "minus.square.fill").padding().foregroundColor(selectedTheme.color)
+            }
+            .padding()
+
             
         }
         .onChange(of: selectedTheme) {

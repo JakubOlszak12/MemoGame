@@ -11,9 +11,6 @@
 		3FCDCBC12BDD4C7600BA95C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBC02BDD4C7600BA95C6 /* ContentView.swift */; };
 		3FCDCBC32BDD4C7700BA95C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCBC22BDD4C7700BA95C6 /* Assets.xcassets */; };
 		3FCDCBC62BDD4C7700BA95C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDCBC52BDD4C7700BA95C6 /* Preview Assets.xcassets */; };
-		3FCDCBD02BDD4C7700BA95C6 /* swiftmemogameJOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */; };
-		3FCDCBDA2BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */; };
-		3FCDCBDC2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */; };
 		3FCDCBE92BDD4ECE00BA95C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBE82BDD4ECE00BA95C6 /* CardView.swift */; };
 		3FCDCBEB2BDD4F3E00BA95C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBEA2BDD4F3E00BA95C6 /* Theme.swift */; };
 /* End PBXBuildFile section */
@@ -42,10 +39,7 @@
 		3FCDCBC22BDD4C7700BA95C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCDCBC52BDD4C7700BA95C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FCDCBCB2BDD4C7700BA95C6 /* swiftmemogameJOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmemogameJOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOTests.swift; sourceTree = "<group>"; };
 		3FCDCBD52BDD4C7700BA95C6 /* swiftmemogameJOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmemogameJOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOUITests.swift; sourceTree = "<group>"; };
-		3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FCDCBE82BDD4ECE00BA95C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3FCDCBEA2BDD4F3E00BA95C6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				3FCDCBBD2BDD4C7600BA95C6 /* swiftmemogameJO */,
-				3FCDCBCE2BDD4C7700BA95C6 /* swiftmemogameJOTests */,
-				3FCDCBD82BDD4C7700BA95C6 /* swiftmemogameJOUITests */,
 				3FCDCBBC2BDD4C7600BA95C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,23 +106,6 @@
 				3FCDCBC52BDD4C7700BA95C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3FCDCBCE2BDD4C7700BA95C6 /* swiftmemogameJOTests */ = {
-			isa = PBXGroup;
-			children = (
-				3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */,
-			);
-			path = swiftmemogameJOTests;
-			sourceTree = "<group>";
-		};
-		3FCDCBD82BDD4C7700BA95C6 /* swiftmemogameJOUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */,
-				3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */,
-			);
-			path = swiftmemogameJOUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCDCBD02BDD4C7700BA95C6 /* swiftmemogameJOTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCDCBDA2BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift in Sources */,
-				3FCDCBDC2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
