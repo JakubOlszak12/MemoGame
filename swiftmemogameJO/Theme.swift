@@ -49,7 +49,7 @@ struct ThemeButton: View {
                     .font(.title)
                 Text(theme.rawValue.capitalized)
                     .font(.caption)
-            }
+            }.padding()
         }
     }
     

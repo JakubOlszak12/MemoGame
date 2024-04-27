@@ -10,12 +10,9 @@ import SwiftUI
 struct ContentView: View {
     @State private var contents = Theme.emojis.symbols.shuffled()
     @State private var selectedTheme = Theme.emojis
-    @State private var numberOfCards = 4
+    @State private var numberOfCards = 9
     
     let columns = [
-        GridItem(.adaptive(minimum: 120)),
-        GridItem(.adaptive(minimum: 120)),
-        GridItem(.adaptive(minimum: 120)),
         GridItem(.adaptive(minimum: 120))
     ]
     
@@ -29,17 +26,16 @@ struct ContentView: View {
                 ThemeButton(theme: .animals, selectedTheme: $selectedTheme).foregroundColor(selectedTheme.color)
                 ThemeButton(theme: .flags, selectedTheme: $selectedTheme).foregroundColor(selectedTheme.color)
             }
-            .padding()
             
            
             cardDisplay
                 .foregroundColor(Color.blue)
-            HStack {
-                adjustCardNumber(by: 2, symbol: "plus.square.fill").padding().foregroundColor(selectedTheme.color)
-                Spacer()
-                adjustCardNumber(by: -2, symbol: "minus.square.fill").padding().foregroundColor(selectedTheme.color)
-            }
-            .padding()
+//            HStack {
+//               adjustCardNumber(by: 2, symbol: "plus.square.fill").padding().foregroundColor(selectedTheme.color)
+//                Spacer()
+//               adjustCardNumber(by: -2, symbol: "minus.square.fill").padding().foregroundColor(selectedTheme.color)
+//            }
+    
 
             
         }
@@ -64,7 +60,7 @@ struct ContentView: View {
             LazyVGrid(columns: columns, spacing: 10) {
                 ForEach(contents.prefix(numberOfCards).indices, id: \.self) { index in
                     CardView(content: contents[index], color: selectedTheme.color)
-                }
+                }.padding()
             }
             .padding(.vertical)
         }

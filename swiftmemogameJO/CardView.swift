@@ -21,8 +21,8 @@ struct CardView: View {
                         Text(content)
                             .font(.largeTitle)
                     )
-                    .aspectRatio(2/3, contentMode: .fit)
-                    .frame(width: 100, height: 100)
+                    .aspectRatio(2/3, contentMode: .fill)
+                  
                     .foregroundColor(color)
                     .onTapGesture {
                         withAnimation {
@@ -32,8 +32,8 @@ struct CardView: View {
             } else {
                 RoundedRectangle(cornerRadius: 12)
                     .fill(color)
-                    .aspectRatio(2/3, contentMode: .fit)
-                    .frame(width: 100, height: 100)
+                    .aspectRatio(2/3, contentMode: .fill)
+                    
                     .onTapGesture {
                         withAnimation {
                             isFaceUp.toggle()
