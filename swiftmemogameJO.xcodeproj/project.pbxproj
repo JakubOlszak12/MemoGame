@@ -14,6 +14,8 @@
 		3FCDCBD02BDD4C7700BA95C6 /* swiftmemogameJOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBCF2BDD4C7700BA95C6 /* swiftmemogameJOTests.swift */; };
 		3FCDCBDA2BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */; };
 		3FCDCBDC2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */; };
+		3FCDCBE92BDD4ECE00BA95C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBE82BDD4ECE00BA95C6 /* CardView.swift */; };
+		3FCDCBEB2BDD4F3E00BA95C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDCBEA2BDD4F3E00BA95C6 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3FCDCBD52BDD4C7700BA95C6 /* swiftmemogameJOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmemogameJOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCDCBD92BDD4C7700BA95C6 /* swiftmemogameJOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOUITests.swift; sourceTree = "<group>"; };
 		3FCDCBDB2BDD4C7700BA95C6 /* swiftmemogameJOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmemogameJOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FCDCBE82BDD4ECE00BA95C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3FCDCBEA2BDD4F3E00BA95C6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				3FCDCBBE2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift */,
 				3FCDCBC02BDD4C7600BA95C6 /* ContentView.swift */,
+				3FCDCBE82BDD4ECE00BA95C6 /* CardView.swift */,
+				3FCDCBEA2BDD4F3E00BA95C6 /* Theme.swift */,
 				3FCDCBC22BDD4C7700BA95C6 /* Assets.xcassets */,
 				3FCDCBC42BDD4C7700BA95C6 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCDCBC12BDD4C7600BA95C6 /* ContentView.swift in Sources */,
+				3FCDCBEB2BDD4F3E00BA95C6 /* Theme.swift in Sources */,
+				3FCDCBE92BDD4ECE00BA95C6 /* CardView.swift in Sources */,
 				3FCDCBBF2BDD4C7600BA95C6 /* swiftmemogameJOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
